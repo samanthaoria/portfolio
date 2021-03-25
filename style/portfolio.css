@@ -3,13 +3,14 @@ h1 {
   color: black;
   font-family: Playfair Display;
   font-weight: bold;
+  line-height: 1.5;
 }
 
 h2 {
   font-family: Poppins, sans-serif;
   font-weight: normal;
   font-size: 24px;
-  line-height: 2;
+  line-height: 1.5;
   color: #272142;
 }
 
@@ -18,6 +19,23 @@ h3 {
   font-size: 36px;
   font-weight: bold;
   margin: 0;
+}
+
+.acai-project,
+.weather-react,
+.weather-vanilla {
+  font-size: 58px;
+  font-family: Playfair Display;
+  line-height: 1;
+}
+.weather-vanilla {
+  margin-right: 40px;
+}
+
+p {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 30px;
 }
 
 .hero {
@@ -33,4 +51,70 @@ h3 {
   font-size: 18px;
   line-height: 27px;
   padding: 12px 20px;
+}
+
+.btn-acai,
+.btn-weather-vanilla,
+.btn-weather-react {
+  color: #6c63ff;
+  border: 1px solid #6c63ff;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 12px 20px;
+}
+
+img {
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+}
+
+.acai {
+  height: 600px;
+  width: 50%;
+  margin-right: 40px;
+  flex: 1;
+}
+
+.react {
+  height: 400px;
+  width: 80%;
+  margin-left: 0;
+}
+
+.vanilla {
+  height: 400px;
+  width: 80%;
+  margin-left: 100px;
+}
+
+.project-description {
+  flex: 1;
+}
+
+.react-description {
+  /* margin-left: 110px; */
+}
+
+@media (max-width: 960px) {
+  h1 {
+    font-size: 50px;
+    line-height: 2;
+  }
+
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+
+  .acai-project,
+  .weather-react,
+  .weather-vanilla {
+    font-size: 44px;
+  }
+
+  .hero {
+    padding: 80px 20px;
+  }
 }
