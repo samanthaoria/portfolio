@@ -112,12 +112,16 @@ img {
 }
 
 .about-section-content {
-  margin: 30px;
+  /* margin: 30px; */
+  margin-left: 30px;
+  margin-top: 40px;
+  margin-left: 30px;
+  margin-top: 40px;
 }
 
 .my-photo {
-  height: 500px;
-  width: 60%;
+  height: 600px;
+  width: 75%;
 }
 
 @media (max-width: 960px) {
@@ -145,5 +149,10 @@ img {
   .about-section {
     text-align: center;
     padding: 0;
+  }
+
+  .my-photo {
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 }
