@@ -98,10 +98,6 @@ img {
   flex: 1;
 }
 
-.react-description {
-  /* margin-left: 110px; */
-}
-
 .about-section {
   padding: 160px 20px;
 }
@@ -133,6 +129,7 @@ img {
   .project-description {
     padding: 0;
     text-align: center;
+    margin-right: 10px;
   }
 
   .acai-project,
