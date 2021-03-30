@@ -121,7 +121,7 @@ img {
 
 .my-photo {
   height: 600px;
-  width: 75%;
+  width: 80%;
 }
 
 @media (max-width: 960px) {
