@@ -30,6 +30,7 @@ h3 {
 }
 .weather-vanilla {
   margin-right: 40px;
+  margin-left: 24px;
 }
 
 p {
@@ -38,14 +39,22 @@ p {
   line-height: 30px;
 }
 
+.p-vanilla {
+  margin-left: 24px;
+}
+
+.p-react {
+  margin-left: 24px;
+}
+
 .hero {
-  background: #f9f7fe;
+  background-color: #f9f7fe;
   text-align: center;
   padding: 160px 20px;
 }
 
 .btn-contact {
-  background: #6c63ff;
+  background: #32afb3;
   border-radius: 4px;
   color: white;
   font-size: 18px;
@@ -56,17 +65,28 @@ p {
 .btn-acai,
 .btn-weather-vanilla,
 .btn-weather-react {
-  color: #6c63ff;
-  border: 1px solid #6c63ff;
+  color: #32afb3;
+  border: 1px solid #32afb3;
   border-radius: 4px;
   font-size: 18px;
   line-height: 27px;
   padding: 12px 20px;
 }
 
-.btn-about-page {
-  background: #6c63ff;
+.btn:hover {
+  background-color: #32afb3;
   color: white;
+}
+
+.btn-about-page {
+  color: #32afb3;
+  border: 1px solid #32afb3;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 12px 20px;
+  /* background: #6c63ff;
+  color: white; */
 }
 
 img {
@@ -108,7 +128,9 @@ img {
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 100px 20px;
+  background-color: #f9f7fe;
+  margin-bottom: 40px;
 }
 
 .content h1 {
@@ -137,6 +159,53 @@ img {
   width: 75%;
 }
 
+.logo {
+  max-width: 150px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 20px 30px 20px;
+  font-size: 16px;
+  font-family: Poppins, sans-serif;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: #32afb3;
+}
+
+.fa-linkedin {
+  color: #32afb3;
+}
+
+.fa-instagram {
+  color: #32afb3;
+}
+
+.fa-envelope {
+  color: #32afb3;
+}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 50px;
@@ -146,13 +215,26 @@ img {
   .project-description {
     padding: 0;
     text-align: center;
-    margin-right: 10px;
+    margin-right: 0;
   }
 
   .acai-project,
   .weather-react,
   .weather-vanilla {
     font-size: 44px;
+    text-align: center;
+  }
+
+  .weather-vanilla {
+    margin: 0;
+  }
+
+  .p-vanilla {
+    margin: 0;
+  }
+
+  .p-react {
+    margin: 0;
   }
 
   .hero {
@@ -176,5 +258,14 @@ img {
   .weather-react-work {
     height: 400px;
     width: 100%;
+  }
+
+  .logo {
+    height: 80px;
+    width: 30%;
+  }
+
+  nav a {
+    font-size: 14px;
   }
 }
