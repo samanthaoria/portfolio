@@ -44,6 +44,10 @@ p {
   line-height: 30px;
 }
 
+.p-about {
+  margin-left: 30px;
+}
+
 .p-vanilla {
   margin-left: 30px;
   margin-right: 36px;
@@ -78,6 +82,11 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 12px 20px;
+}
+
+.btn-weather-vanilla,
+.btn-weather-react {
+  margin-left: 24px;
 }
 
 .btn:hover {
@@ -138,15 +147,15 @@ img {
 }
 
 .content-container {
-  padding: 60px 20px;
   background-color: #f9f7fe;
   margin-bottom: 40px;
+  padding: 20px 12px;
   max-width: 100%;
 }
 
 .content h1 {
   font-size: 52px;
-  line-height: 80px;
+  line-height: 60px;
 }
 
 .h1-work {
@@ -169,6 +178,9 @@ img {
   margin-top: 40px;
 }
 
+.btn-about-page {
+  margin-left: 30px;
+}
 .my-photo {
   height: 550px;
   width: 65%;
@@ -178,6 +190,10 @@ img {
   max-width: 150px;
   margin-left: 0;
   margin-right: 0;
+}
+
+.h1-work {
+  font-size: 50px;
 }
 
 nav {
@@ -276,7 +292,8 @@ footer .social-links a:hover {
   }
 
   .h1-work {
-    margin-right: 30px;
+    text-align: center;
+    font-size: 45px;
   }
 
   .h1-contact {
@@ -285,8 +302,13 @@ footer .social-links a:hover {
 
   .project-description {
     padding: 0;
-    text-align: center;
-    margin-right: 0;
+    /* text-align: center; */
+    margin: 0 20px 0 20px;
+  }
+
+  .btn-weather-vanilla,
+  .btn-weather-react {
+    margin-left: 0;
   }
 
   .acai-project,
@@ -314,28 +336,39 @@ footer .social-links a:hover {
 
   .content {
     text-align: center;
-    padding: 0;
+    margin: 40px 0;
   }
 
   .p-about {
     margin-right: 20px;
   }
 
+  .btn-about-page {
+    margin-left: 85px;
+  }
+
   .my-photo {
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 110px;
+    margin-left: 70px;
     height: 300px;
     width: 60%;
+    padding: 0;
   }
 
   .work-images {
-    margin-left: 20px;
+    margin-left: 40px;
+  }
+
+  .work-content {
+    text-align: center;
+    margin: 40px 0;
   }
 
   .weather-vanilla-work {
     margin-top: 20px;
     height: 300px;
+    width: 100%;
   }
 
   .weather-react-work {
