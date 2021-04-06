@@ -277,6 +277,10 @@ footer .social-links a:hover {
   background-color: #32afb3;
 }
 
+.link-portfolio {
+  color: #32afb3;
+}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 50px;
